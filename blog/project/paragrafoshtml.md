@@ -1,5 +1,4 @@
 ---
-id: parágrafos-símbolos
 slug: /paragrafos-simbolos
 title: Parágrafos/Quebras e Símbolos em HTML
 date: 13-03-2025
