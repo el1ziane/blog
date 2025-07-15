@@ -1,7 +1,7 @@
 ---
-slug: /paragrafos-simbolos
+slug: paragrafos-simbolos
 title: Parágrafos/Quebras e Símbolos em HTML
-date: 13-03-2025
+date: 2023-12-28
 authors: Eliziane
 tags: [HTML, Parágrafos, Símbolos, Emojis]
 keywords: [HTML, Parágrafos, Símbolos, Emojis, Programação, Web]
