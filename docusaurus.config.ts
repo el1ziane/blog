@@ -52,8 +52,6 @@ const config: Config = {
           position: 'right',
           items: [
             { label: 'Arquivos', to: 'blog/archive' },
-            { label: 'Notas', to: 'docs/skill' },
-            { label: 'Ferramentas', to: 'docs/tools' },
           ],
         },
       ],
@@ -66,7 +64,6 @@ const config: Config = {
           items: [
             { label: 'Blog', to: 'blog' },
             { label: 'Arquivos', to: 'blog/archive' },
-            { label: 'Notas técnicas', to: 'docs/skill' },
             { label: 'Projetos práticos', to: 'project' },
           ],
         },

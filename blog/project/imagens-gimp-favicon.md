@@ -1,7 +1,6 @@
 ---
-id: imagens-gimp-favicon
-slug: /imagens-gimp-favicon
-title: Imagens/GIMP/Favicon
+slug: imagens-gimp-favicon
+title: Imagens, tratamentos com GIMP e Favicon
 date: 2022-05-09
 authors: Eliziane
 tags: [HTML, Imagens, GIMP, Favicon]

@@ -1,8 +1,7 @@
 ---
-id: redes-1
-slug: /redes-1
+slug: redes-1
 title: Redes
-date: 13-03-2025
+date: 2023-03-13
 authors: Eliziane
 tags: [networking, ipv4, sistemas, redes, protocolos]
 keywords: [redes, ip, multicast, broadcast, sistemas, ipv4]
