@@ -7,16 +7,24 @@ tags: [HTML, Imagens, GIMP, Favicon]
 keywords: [Imagens, GIMP, Favicon, Web, Programação]
 ---
 
-**Formatos de Imagens:** Utilizar o GIMP, software de tratamento de imagens gratuito e open source, para alterar largura, altura e resolução de imagens, de modo a transformar arquivo em algo menor, ocupando assim uma quantidade de espaço menor e consequentemente possibilitando o desenvolvimento de um site que não ocupe muito espaço.
+## Formatos de Imagens:
 
-**Adicionar Imagens ao Site:**
+Utilizar o GIMP, software de tratamento de imagens gratuito e open source, para alterar largura, altura e resolução de imagens, de modo a transformar arquivo em algo menor, ocupando assim uma quantidade de espaço menor e consequentemente possibilitando o desenvolvimento de um site que não ocupe muito espaço.
+
+## Adicionar Imagens ao Site:
 
 Podemos adicionar imagens ao site com o seguinte código: `<img src="caminho, nome ou link" alt="descrição da imagen">`
 
-**Exemplo com o código da aula:**
+## Exemplo com o código da aula:
 
-```
 
+ ```html
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
 <body>
 
     <h1>Testando carga e imagens</h1>
@@ -55,8 +63,14 @@ Para adicionar um Favicon ao nosso site primeiro devemos baixar ou transformar a
 
 O ícone pode ser adicionado ao site com o seguinte código acima do title:
 
-```
 
+ ```html
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
 <link rel="shortcut icon" href="Dolphin.ico" type="image/x-icon">
 
     <title>Teste favicon</title>

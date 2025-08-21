@@ -6,15 +6,15 @@ authors: Eliziane
 tags: [HTML, Parágrafos, Símbolos, Emojis]
 keywords: [HTML, Parágrafos, Símbolos, Emojis, Programação, Web]
 ---
-
-- **Parágrafos e Quebras**
+<!-- truncate -->
+## Parágrafos e Quebras
     
-    Ao escrever um parágrafo `<p></p>` em um arquivo HTML, é preciso observar:
+Ao escrever um parágrafo `<p></p>` em um arquivo HTML, é preciso observar:
     
-    - Qualquer texto pode ser escrito de forma corrida e sem quebra de linha, desde que esteja entre o par de tags `<p></p>`.
-    - Se houver a necessidade de quebrar o texto em determinado local, basta utilizar a tag `<br>`.
-    - Se houver a necessidade de um espaço maior **NÃO UTILIZAR** várias tags `<br> <br> <br>`.
-    - Se houver a necessidade de escrever as tags no texto, utiliza-se: `&lt;` = **Less than** e `&gt;` = **Greater than**.
+- Qualquer texto pode ser escrito de forma corrida e sem quebra de linha, desde que esteja entre o par de tags `<p></p>`.
+- Se houver a necessidade de quebrar o texto em determinado local, basta utilizar a tag `<br>`.
+- Se houver a necessidade de um espaço maior **NÃO UTILIZAR** várias tags `<br> <br> <br>`.
+- Se houver a necessidade de escrever as tags no texto, utiliza-se: `&lt;` = **Less than** e `&gt;` = **Greater than**.
     1. `&lt;p&gt;` para a tag `<p>`.
     2. `&lt;/p&gt;` para a tag `</p>`.
     3. `&lt;br&gt;` para `<br>`.
@@ -46,11 +46,11 @@ keywords: [HTML, Parágrafos, Símbolos, Emojis, Programação, Web]
     </html>
     ```
 
-- **Símbolos e Emoji**
+## Símbolos e Emoji
     
-    Abaixo estão alguns exemplos de símbolos:
+Abaixo estão alguns exemplos de símbolos:
     
-    ```html
+```html
     <p>Vamos adicionar alguns símbolos especiais:
             &reg;
             &copy;
@@ -62,17 +62,18 @@ keywords: [HTML, Parágrafos, Símbolos, Emojis, Programação, Web]
             &uparrow;
             &uarr;
         </p>
-    ```
+```
     
-    Para adicionar um emoji, basta buscar pelo seu código em sites como o [Emojipedia](https://emojipedia.org/) e colocar o seguinte comando antes do código do emoji: `&#x`.
+Para adicionar um emoji, basta buscar pelo seu código em sites como o [Emojipedia](https://emojipedia.org/) e colocar o seguinte comando antes do código do emoji: `&#x`.
+    
     
     ### Exemplo de código:
     
-    ```html
+```html
     <p>Vamos adicionar alguns emojis:
-            &#x1F60A
-            &#x1F680
+            &#x1F60A;
+            &#x1F680;
         </p>
-    ```
+```
 
 -- Aula do curso do Gustavo Guanabara
