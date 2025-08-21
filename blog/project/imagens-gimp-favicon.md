@@ -6,6 +6,7 @@ authors: Eliziane
 tags: [HTML, Imagens, GIMP, Favicon]
 keywords: [Imagens, GIMP, Favicon, Web, Programação]
 ---
+<!-- truncate -->
 
 ## Formatos de Imagens:
 

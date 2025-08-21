@@ -6,6 +6,7 @@ authors: Eliziane
 tags: [networking, ipv4, sistemas, redes, protocolos]
 keywords: [redes, ip, multicast, broadcast, sistemas, ipv4]
 ---
+<!-- truncate -->
 
 # Redes
 

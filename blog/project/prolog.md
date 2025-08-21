@@ -6,7 +6,11 @@ authors: Eliziane
 tags: [prolog, matematica, homeworks]
 keywords: [prolog, matematica, homeworks]
 ---
+
+<!-- truncate -->
+
 [GitHub](https://github.com/el1ziane/predicadosprolog)
+
 
 Neste post, vou compartilhar um trabalho que fiz na faculdade na disciplina de matemática discreta. Aqui vou explorar como o Prolog implementa a lógica de predicados de forma recursiva e como essa característica torna a linguagem util para problemas que envolvem inferências lógicas.
 
