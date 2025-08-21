@@ -108,7 +108,7 @@ networks:
 ```
 
 Com isso será possível criar os container do MinIO, Spark e Python com suas respectivas imagens.
-Um adendo para o Python, que não esta instalado localmente e que usará build do Dockerfile para instalar o pySpark toda vez que o container iniciar, pois ele usa a imagem bitnami/spark:latest  que já vem com o Java e Spark instalados:
+Um adendo para o Python, é que ele não está instalado localmente, assim ele usará build do Dockerfile para instalar o pySpark toda vez que o container iniciar, pois ele usa a imagem bitnami/spark:latest  que já vem com o Java e Spark instalados:
 
 ```jsx
 FROM bitnami/spark:latest
@@ -127,7 +127,7 @@ CMD ["python", "/app/teste_delta.py"]
 
 Se atentar com a compatibilidade das versões do PySpark e do Delta lake, pois a não compatibilidade pode causar diversos erros na execução das bibliotecas.
 
-Outro adendo é com relacao a seguinte parte do código
+Outro adendo é com relação a seguinte parte do código:
 
 ```jsx
 networks:
@@ -193,7 +193,7 @@ docker-compose down
 docker-compose up
 ```
 
-Quando realizar uma alteração no docker compose execute os seguintes comandos para reiniciar os containers para aplicar as alterações
+Quando realizar uma alteração no docker compose execute os seguintes comandos para reiniciar os containers para aplicar as alterações:
 
 ```jsx
 docker-compose down
